@@ -1,0 +1,5 @@
+git clone -copies repository to pc
+touch filename.fileextension -makes file
+git add filename.fileextension -add file
+git commit -m "message" -commit added files with a message
+git push -pushes commit to server
