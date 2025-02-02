@@ -1,0 +1,35 @@
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+div{
+    background-color: blue;
+    width: 100px;
+    height: 400px;
+    margin: 20px;
+    padding: 20px;
+}
+
+h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    border: 3px solid black;
+}
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+
+td,th{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.red{
+
+    color: red
+}
