@@ -2,15 +2,69 @@
 <html lang="en">
     <head>
         <title>Search</title>
+        <style>
+            .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+            .tablelabel {
+                padding-left: 220px;
+                padding-right: 10px;
+            }
+        </style>
     </head>
     <body>
-        <div style = "text-align: right;">
-            <a href = "index.html">back</a>
-            <h1 style ="text-align: center;"> Cool Google </h1>
+        <div style = "text-align: right;" class="header">
+            <h2 style ="margin: 0;"> Cool Google </h2>
+            <a href = "index.html">back to google search</a>
         </div>
-        <form action="https://www.google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
-        </form>
+        <div>
+            <h2 style="margin-left: 20px; padding-top: 20px;">Advanced Search </h2>
+            <form action="https://www.google.com/search">
+                <h3 style = "text-align: left; margin-left: 20px;"> Find Pages With...</h3>
+                <table style="margin-left: -200px;">
+                    <tr>
+                        <td class="tablelabel">
+                            all these words:
+                        </td>
+                        <td class="tableform">
+                            <input size="50" type="text" name="q" style="border-radius: 7px;">
+                        </td>   
+                    </tr>
+                    <tr>
+                        <td class="tablelabel">
+                            this exact word or phrase:
+                        </td>
+                        <td class="tableform">
+                            <input size="50" type="text" name="q" style="border-radius: 7px;">
+                        </td>   
+                    </tr>
+                    <tr>
+                        <td class="tablelabel">
+                            any of these words:
+                        </td>
+                        <td>
+                            <input size="50" type="text" name="q" style="margin-bottom: 5px; border-radius: 7px;">
+                        </td>      
+                    </tr>
+                    <tr>
+                        <td class="tablelabel">
+                            none of these words:
+                        </td>
+                        <td>
+                            <input size="50" type="text" name="q" style="margin-bottom: 5px; border-radius: 7px;">
+                        </td>   
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="submit" value="Advanced Search">
+                        </td>   
+                    </tr>
+                </table>
+                
+            </form>
+        </div>
     </body>
 </html>
